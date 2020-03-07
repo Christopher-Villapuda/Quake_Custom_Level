@@ -1,0 +1,35 @@
+---- light / ericw-tools v0.18.1 ----
+Raytracing backend: Embree
+running with 8 threads
+LoadBSPFile: 'TestLevel.bsp'
+BSP is version 29
+--- LoadEntities ---
+WARNING: entity at (-408 296 168) (light) has empty key/value "angle" ""
+WARNING: couldn't parse '' as number for key 'angle'
+31 entities read, 16 are lights.
+--- OptionsSummary ---
+Embree_TraceInit: Embree version: 2.15.0
+Embree_TraceInit:
+	0 sky faces
+	202 solid faces
+	0 filtered faces
+	0 shadow-casting skip faces
+SetupLights: 16 initial lights
+SetupLights: 16 after surface lights
+SetupLights: 16 after jittering
+--- EstimateLightVisibility ---
+0....1....2....3....4....5....6....7....8....9.
+Final count: 16 lights 0 suns in use.
+--- LightWorld ---
+0....1....2....3....4....5....6....7....8....9....
+Lighting Completed.
+
+lightdatasize: 24273
+0 switchable light styles (32 max)
+Writing TestLevel.bsp as BSP version 29
+0.127 seconds elapsed
+
+stats:
+1.107058 lights tested, 0.862790 hits per sample point
+0.000000 bounce lights tested, 0.000000 hits per sample point
+0 empty lightmaps
