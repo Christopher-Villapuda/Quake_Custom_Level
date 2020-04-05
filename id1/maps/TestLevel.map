@@ -3,7 +3,7 @@
 // entity 0
 {
 "classname" "worldspawn"
-"wad" "D:/QuakeD/Level Designer/QD/wads/START.WAD"
+"wad" "wads/START.WAD"
 // brush 0
 {
 ( -416 -64 -16 ) ( -416 -63 -16 ) ( -416 -64 -15 ) wbrick1_5 -0 -0 -0 1 1
